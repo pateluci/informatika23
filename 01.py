@@ -1,11 +1,9 @@
-vypis=print
-def vypis(x):
-    print(x)
-def soucet(a, b):
-    return a + b
-vysledek=soucet(19, 23)
-print(vysledek)
-vypis("cau lidi jak to jde")
-def sectiavypis(a, b):
-    print("soucet cisla", a,"a cisla", b,"je", a+ b)
-sectiavypis(1, 2)
+zaklad = 1
+for x in range(10):
+    zaklad = zaklad*2
+    print (zaklad)
+
+soucet=0
+for cislo in range(1, 100):
+    soucet += cislo
+print (soucet)
